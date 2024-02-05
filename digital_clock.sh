@@ -16,7 +16,7 @@ display_digital_clock() {
     echo -e "${Yellow}*****************************"
     echo -e "*${Violet}        Digital Clock${Yellow}        *"
     echo -e "*${Blue}        $(date +%T)${Yellow}             *"
-    echo -e "*****************************${Reset}"
+    echo -e "*****************************"
 }
 
 # Main loop
